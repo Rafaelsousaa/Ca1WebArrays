@@ -1,3 +1,5 @@
+
+<!-- including the header by using php include -->
 <?php include('Header.php'); ?>
 
 <div class="text">
