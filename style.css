@@ -1,14 +1,22 @@
+/* this part i added a image for my web page in my body all page will have the image */
+
 body {
     width: 50%;
     background-image: url('Photos/rafael.jpg');
     background-size: cover;
 }
 
+
+/* change the position and margins */
+
 .text {
     margin-top: 120px;
     margin-bottom: 30px;
     margin-left: 20px;
 }
+
+
+/* give the position for the table and text */
 
 .table {
     margin-top: 80px;
@@ -17,16 +25,17 @@ body {
     transition: 0.2s;
 }
 
+
+/* this part I gave some effects for my table */
+
 table tr:hover {
     background-color: red;
     transform: scale(0.9);
     transition: 0.4s;
 }
 
-table tbody th:nth-child(odd):hover {
-    background-color: blue;
-    color: white;
-}
+
+/* give the postion for my footer and colour */
 
 footer {
     position: absolute;
@@ -38,14 +47,23 @@ footer {
     text-align: center;
 }
 
+
+/* to get the position for my footer */
+
 .space {
     margin-top: 250px;
 }
+
+
+/* position for my form */
 
 form {
     margin-top: 100px;
     text-align: center;
 }
+
+
+/* to get the position for my footer */
 
 .space2 {
     margin-top: 500px;
