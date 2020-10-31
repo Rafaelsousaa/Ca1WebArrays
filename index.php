@@ -11,4 +11,5 @@
 <div class="space">
 
 </div>
+<!-- this part I added my footer by using php include -->
 <?php include('Footer.php'); ?>
