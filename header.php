@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Ca1 WEB</title>
 </head>
 
@@ -17,10 +18,10 @@
                     <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Page1.php">Page 1</a>
+                    <a class="nav-link" href="page1.php">Page 1</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Page2.php">Page2</a>
+                    <a class="nav-link" href="page2.php">Page2</a>
                 </li>
 
 
