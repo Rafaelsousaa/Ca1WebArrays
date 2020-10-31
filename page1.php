@@ -21,5 +21,7 @@
         }
 
         ?>
+        </tbody>   
+    </table>
 
         <?php include('Footer.php'); ?>
