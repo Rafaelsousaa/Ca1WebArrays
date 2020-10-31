@@ -14,10 +14,17 @@ body {
     margin-top: 80px;
     text-align: center;
     margin-left: 300px;
+    transition: 0.2s;
 }
 
-table tr:nth-child(even):hover {
+table tr:hover {
     background-color: red;
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+table tbody th:nth-child(odd):hover {
+    background-color: blue;
     color: white;
 }
 
