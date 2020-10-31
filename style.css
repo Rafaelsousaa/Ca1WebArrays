@@ -3,3 +3,9 @@ body {
     background-image: url('Photos/rafael.jpg');
     background-size: cover;
 }
+
+.text {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
