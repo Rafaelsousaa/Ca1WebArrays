@@ -10,6 +10,17 @@ body {
     margin-left: 20px;
 }
 
+.table {
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+table tr:nth-child(even):hover {
+    background-color: red;
+    color: white;
+}
+
 footer {
     position: absolute;
     height: 50px;
