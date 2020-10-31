@@ -25,7 +25,24 @@ $country = array(
 
 
 </form>
+<?php
 
+if (isset($_POST['submit'])) {
+
+    foreach ($country as $x => $x_value) {
+
+        if ($_POST['x'] == $x) {
+            $can = $x;
+            $cap = $x_value;
+        }
+    }
+    echo '<h1>The country choosen is : ' . $can . '</h1>';
+    echo '<h2>The capital is : ' . $cap. '</h2>';
+}
+
+
+?>
+<div class="space2"></div>
 
 
 
