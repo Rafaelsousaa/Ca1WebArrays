@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- this part I added a bootstrap and linked to my style.css -->
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Ca1 WEB</title>
 </head>
+<!-- this part I linked the pages, home,page1,page2 -->
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
@@ -27,6 +29,7 @@
 
 
             </ul>
+            <!-- This parte I added a button search -->
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
